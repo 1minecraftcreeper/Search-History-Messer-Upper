@@ -1,1 +1,6 @@
+function addTerm() {
 
+}
+function downloadHtml() {
+
+}
