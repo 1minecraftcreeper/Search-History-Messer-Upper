@@ -1,3 +1,9 @@
 body {
-  
+  font-family: courier;
+  background-color: #B7B1F2;
+  color: #FDB7EA;
+}
+div {
+  background-color: #FFDCCC;
+  color: #FBF3B9;
 }
