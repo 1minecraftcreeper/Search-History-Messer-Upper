@@ -1,9 +1,15 @@
 body {
-  font-family: courier;
+  font-family: Verdana;
   background-color: #B7B1F2;
-  color: #FDB7EA;
+  color: #FFF;
 }
 div {
-  background-color: #FFDCCC;
+  background-color: #FDB7EA;
   color: #FBF3B9;
+  border-radius: 5px;
+}
+.output {
+  background-color: #000;
+  color: #FFF;
+  font-family: Courier;
 }
