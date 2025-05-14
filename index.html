@@ -3,6 +3,7 @@
   <head>
     <title></title>
     <link rel = "stylesheet" href = "styles.css">
+   
   </head>
   <body>
     <div>
@@ -10,12 +11,14 @@
       <p>Use this tool to create code to mess up someone's search history</p>
     </div>
     <p>Add a search term (only letters, numbers and spaces please)</p>
-    <input type = "text" id = "searchTerm" placeholder = "Wierd things...">
-    <button onClick = "">Add!</button>
-    <div>
-      <h4>Output:</h4>
-      <p id = "outputText"></p>
-      <button onClick = "">Download html File</button>
+    <input type = "text" id = "searchTerm" placeholder = "Weird things...">
+    <button onClick = "addTerm">Add!</button>
+    <div id="div2">
+      <h3>Output:</h3>
+      <div class=output>
+        <p id = "outputText">uyiolij07iuyr</p>
+      </div>
+      <button onClick="downloadHtml()">Generate Download Link</button>
     </div>
   </body>
 </html>
